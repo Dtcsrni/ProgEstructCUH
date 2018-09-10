@@ -22,6 +22,8 @@ public class AlumnosArreglo {
                 opcion = scan.nextInt();//Preguntamos la opcion
                 switch(opcion){
                     case 1:
+
+
                         for(int i=0;i<alumno.length;i++){
                         System.out.println("Ingrese nombre de alumno "+(i+1));
                         alumno[i]=scan.next();
