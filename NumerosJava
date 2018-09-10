@@ -1,0 +1,29 @@
+
+package array;
+import java.util.Scanner;
+/**
+ *
+ * @author Pc
+ */
+public class Array {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+        int numero,namero;
+        int[] array = new int[8];
+    
+        System.out.println("Introduzca el numero a imprimir");
+        numero=num.nextInt();
+        System.out.println(numero);
+        int i;     
+        for(i=0; i<=8;i++){
+        namero=(i*numero);
+        System.out.println("El numero es: "+namero);
+        
+    }
+    
+}
+}
