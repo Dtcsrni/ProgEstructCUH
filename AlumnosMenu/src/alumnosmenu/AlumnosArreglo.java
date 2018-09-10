@@ -1,27 +1,7 @@
-AlumnosArreglo.java
-
-Tipo
-Java
-Tamaño
-2 KB (2.457 bytes)
-Espacio usado
-2 KB (2.457 bytes)
-Ubicación
-alumnosarreglo
-Propietario
-yo
-Modificado
-6 sept. 2018 por mí
-Abierto
-19:47 por mí
-Creación
-5 sept. 2018
-Añadir descripción
-Los lectores pueden descargar
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Menu de alumnos
+ * Por Erick Vega
+ * armony.systems
  */
 package alumnosmenu;
 
