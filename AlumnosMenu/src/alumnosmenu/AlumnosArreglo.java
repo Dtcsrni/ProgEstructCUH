@@ -18,7 +18,7 @@ public class AlumnosArreglo {
         
        
       do{
-         System.out.println("Ingrese la accion a realizar\n 1.-Agregar Alumno\n 2.- Buscar alumno \n 3.- Modificar Alumno \n 4.- Mostrar alumnos\n 5.- Borrar Alumnos"); 
+         System.out.println("Ingrese la accion a realizar\n 1.-Agregar Alumno\n 2.- Buscar alumno \n 3.- Modificar Alumno \n 4.- Mostrar alumnos\n 5.- Borrar Alumnos\n 0.-Salir"); 
                 opcion = scan.nextInt();//Preguntamos la opcion
                 switch(opcion){
                     case 1:
@@ -88,6 +88,8 @@ public class AlumnosArreglo {
                 case 0:
                         System.err.println("Saliendo");
                         break;
+                default:
+                    System.err.println("Esa opcion no existe");
                                 }
     }while(opcion!=0);
       
